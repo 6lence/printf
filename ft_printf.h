@@ -6,7 +6,7 @@
 /*   By: mescobar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/18 11:41:19 by mescobar          #+#    #+#             */
-/*   Updated: 2023/03/22 12:30:11 by mescobar         ###   ########.fr       */
+/*   Updated: 2023/09/03 17:21:49 by mescobar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 # include <stdarg.h>
 # include <unistd.h>
-# include "libft/libft.h"
+# include "./src/libft/libft.h"
 # include <stdio.h>
 
 typedef struct s_printf

@@ -1,20 +1,22 @@
 HEADER = ./
 
-FILES_C = ft_printf.c \
-		  ft_put.c \
-		  ft_hexa.c \
-		  ft_verifs.c \
-		  ft_flags.c \
-		  ft_flags2.c \
-		  ft_flags3.c \
-		  ft_flags4.c \
-		  ft_flags5.c \
-		  ft_flags6.c \
-		  ft_flags_fonct.c \
+SRC = ./src/
 
-LIBFT_PATH = libft/
+FILES_C = ${SRC}ft_printf.c \
+		  ${SRC}ft_put.c \
+		  ${SRC}ft_hexa.c \
+		  ${SRC}ft_verifs.c \
+		  ${SRC}ft_flags.c \
+		  ${SRC}ft_flags2.c \
+		  ${SRC}ft_flags3.c \
+		  ${SRC}ft_flags4.c \
+		  ${SRC}ft_flags5.c \
+		  ${SRC}ft_flags6.c \
+		  ${SRC}ft_flags_fonct.c \
 
-LIBFT = libft/libft.a
+LIBFT_PATH = ${SRC}libft/
+
+LIBFT = ${SRC}libft/libft.a
 
 FILES_O = ${FILES_C:.c=.o}
 
